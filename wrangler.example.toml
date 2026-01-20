@@ -23,5 +23,6 @@ RSS_DESCRIPTION = "Development Environment"
 
 [[d1_databases]]
 binding = "DB"
-database_name = "rin"
-database_id = "YourDatabaseID"
+database_name = "events-db"
+database_id = "de79c3c9-3637-4ca8-8230-2d9f08620494"
+preview_database_id = "DB" # Required for Pages local development
