@@ -58,7 +58,7 @@ export async function generateAISummary(content: string): Promise<string | null>
                 messages: [
                     {
                         role: "system",
-                        content: "你是一个专业的文章总结助手。请用简洁的中文总结文章的主要内容，不超过200字。只输出总结内容，不要有任何前缀或解释。"
+                        content: "Bạn là trợ lý tóm tắt bài viết chuyên nghiệp. Vui lòng tóm tắt nội dung chính của bài viết bằng tiếng Việt ngắn gọn, không quá 200 từ. Chỉ xuất ra nội dung tóm tắt, không có bất kỳ phần mở đầu hoặc giải thích nào."
                     },
                     {
                         role: "user",
